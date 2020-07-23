@@ -1,8 +1,6 @@
 # AWS-HPC-Workshop
 
 
-### Configure EFS
-
 ### Collect your Canonical ID
 This is needed so I can share the S3 bucket with you
 
@@ -90,7 +88,7 @@ EOF
 
 ```bash
 mkdir -p ~/.parallelcluster
-cp config.ini ~/.parallelcluster
+cp config.ini ~/.parallelcluster/config
 pcluster create hpclab-yourname -c config.ini
 ```
 
